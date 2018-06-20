@@ -1,52 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>ERRO: A URL solicitada não pode ser recuperada</title>
-<style type="text/css"><!-- 
- %l
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-body
-:lang(fa) { direction: rtl; font-size: 100%; font-family: Tahoma, Roya, sans-serif; float: right; }
-:lang(he) { direction: rtl; }
- --></style>
-</head><body id="%c">
-<div id="titles">
-<h1>ERRO</h1>
-<h2>A URL solicitada não pode ser recuperada</h2>
-</div>
-<hr>
+	<title>ENJOY <3</title>
 
-<div id="content">
-<p><b>Invalid Request</b> error was encountered while trying to process the request:</p>
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
 
-<blockquote id="data">
-<pre>%R</pre>
-</blockquote>
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="http://149.56.100.250/public/squid/v3/css/bootstrap.min.css" />
 
-<p>Some possible problems are:</p>
-<ul>
-<li id="missing-method"><p>Método desconhecido ou faltando (GET, POST)</p></li>
-<li id="missing-url"><p>Faltou a URL</p></li>
-<li id="missing-protocol"><p>Faltou o identificador HTTP (HTTP/1.0)</p></li>
-<li><p>A requisição pode ser muito grande</p></li>
-<li><p>Content-Length missing for POST or PUT requests.</p></li>
-<li><p>Hostname com caracter inválido; não são permitidos underscores.</p></li>
-<li><p>HTTP/1.1 <q>Expect:</q> feature is being asked from an HTTP/1.0 software.</p></li>
-</ul>
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="http://149.56.100.250/public/squid/v3/css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="http://149.56.100.250/public/squid/v3/css/owl.theme.default.css" />
 
-<p>Your cache administrator is <a href="mailto:%w%W">%w</a>.</p>
-<br>
-</div>
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="http://149.56.100.250/public/squid/v3/css/magnific-popup.css" />
 
-<script language="javascript">
-if ('%M' != '[unknown method]') document.getElementById('missing-method').style.display = 'none';
-if ('%u' != '[no URL]') document.getElementById('missing-url').style.display = 'none';
-if ('%P' != '[unknown protocol]') document.getElementById('missing-protocol').style.display = 'none';
-</script>
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="http://149.56.100.250/public/squid/v3/css/font-awesome.min.css">
 
-<hr>
-<div id="footer">
-<p>Generated %T by %h (%s)</p>
-<!-- %c -->
-</div>
-</body></html>
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="http://149.56.100.250/public/squid/v3/css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('http://149.56.100.250/public/squid/v3/img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<p class="white-text">:3
+							</p>
+						</div>
+					</div>
+					<!-- /home content -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="http://149.56.100.250/public/squid/v3/js/jquery.min.js"></script>
+	<script type="text/javascript" src="http://149.56.100.250/public/squid/v3/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://149.56.100.250/public/squid/v3/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="http://149.56.100.250/public/squid/v3/js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="http://149.56.100.250/public/squid/v3/js/main.js"></script>
+
+</body>
+
+</html>
